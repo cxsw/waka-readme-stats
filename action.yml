@@ -125,12 +125,12 @@ inputs:
   LOCALE:
     required: false
     description: "Show stats in your own language"
-    default: "en"
+    default: "zh"
 
   UPDATED_DATE_FORMAT:
     required: false
     description: "Updated date format"
-    default: "%d/%m/%Y %H:%M:%S"
+    default: "%Y-%m-%d %H:%M:%S"
 
   IGNORED_REPOS:
     required: false
@@ -149,7 +149,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://wakareadmestats/waka-readme-stats:master'
+  image: 'docker://tekintian/waka-readme-stats:master'
 
 branding:
   icon: 'activity'
