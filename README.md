@@ -1,6 +1,6 @@
 > Looking For Translation to different languages & Locale  [#23](https://github.com/anmol098/waka-readme-stats/issues/23)
 
-# Dev Metrics in Readme with added feature flags 🎌
+# Dev Metrics in Readme with added feature flags 
 
 ![Project Preview](https://user-images.githubusercontent.com/25841814/79395484-5081ae80-7fac-11ea-9e27-ac91472e31dd.png)
 
