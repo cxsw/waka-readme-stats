@@ -81,4 +81,4 @@ jobs:
           type: create
           body: ${{ steps.make-stats.outputs.README_CONTENT }}
           issue_number: ${{ github.event.number }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.INPUT_GITHUB_TOKEN }}
