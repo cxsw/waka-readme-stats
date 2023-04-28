@@ -1,4 +1,4 @@
-> Looking For Translation to different languages & Locale  [#23](https://github.com/anmol098/waka-readme-stats/issues/23)
+> Looking For Translation to different languages & Locale  [#23](https://github.com/cxsw/waka-readme-stats/issues/23)
 
 # Dev Metrics in Readme with added feature flags 
 
@@ -15,9 +15,9 @@
 
 <p align="center">
    <img src="https://img.shields.io/badge/language-python-blue?style"/>
-   <img src="https://img.shields.io/github/license/anmol098/waka-readme-stats"/>
-   <img src="https://img.shields.io/github/stars/anmol098/waka-readme-stats"/>
-   <img src="https://img.shields.io/github/forks/anmol098/waka-readme-stats"/>
+   <img src="https://img.shields.io/github/license/cxsw/waka-readme-stats"/>
+   <img src="https://img.shields.io/github/stars/cxsw/waka-readme-stats"/>
+   <img src="https://img.shields.io/github/forks/cxsw/waka-readme-stats"/>
    <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 </p>
 <p align="center">
@@ -31,9 +31,9 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/anmol098/waka-readme-stats/issues">Report Bug</a>
+    <a href="https://github.com/cxsw/waka-readme-stats/issues">Report Bug</a>
     ·
-    <a href="https://github.com/anmol098/waka-readme-stats/issues">Request Feature</a>
+    <a href="https://github.com/cxsw/waka-readme-stats/issues">Request Feature</a>
   </p>
 
 ## Prep Work
@@ -94,7 +94,7 @@ jobs:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: cxsw/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -107,7 +107,7 @@ jobs:
 >except the lines of code flag due to heavy operation performed
 
 ```yml
-- uses: anmol098/waka-readme-stats@master
+- uses: cxsw/waka-readme-stats@master
   with:
       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -264,7 +264,7 @@ CSS          2 repos        █░░░░░░░░░░░░░░░░�
 
 **Timeline**
 
-![Chart not found](https://raw.githubusercontent.com/anmol098/anmol098/master/charts/bar_graph.png) 
+![Chart not found](https://raw.githubusercontent.com/tekintian/tekintian/master/charts/bar_graph.png) 
 
 ## :sparkling_heart: Support the project
 
